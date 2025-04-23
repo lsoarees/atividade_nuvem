@@ -3,7 +3,7 @@ const app = express(); // Inicializa o Express
 
 // Rota para La Liga
 app.get("/LaLiga", function(req, res) {
-    res.send("<h1>LaLiga: Principal campeonato de futebol da Espanha.</h1>");
+    res.send("<h1>LaLiga: Principal capeonato de futebol da Espanha.</h1>");
 });
 
 // Rota para Premier League
